@@ -9,7 +9,7 @@ public class IndexController {
 	// localhost:8080/
 	// localhost:8080
 	
-	@GetMapping({"","/"}) 
+	@GetMapping({"", "/"}) 
 	public String index() {
 		// 머스테치 기본폴더 위치는 리소스이다
 		// 뷰리졸버 설정: 템플시(프리픽스), .머스테치는 서브픽스
